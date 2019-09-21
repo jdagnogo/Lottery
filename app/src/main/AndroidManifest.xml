@@ -3,13 +3,15 @@
     package="com.jdagnogo.exus.lottery">
 
     <application
+        android:name="com.jdagnogo.exus.LotteryApplication"
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
         android:label="@string/app_name"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".view.activity.RandomNumberActivity"></activity>
+        <activity android:name=".view.activity.ThirdScreen"></activity>
+        <activity android:name=".view.activity.GameListActivity" />
         <activity android:name=".view.activity.MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
