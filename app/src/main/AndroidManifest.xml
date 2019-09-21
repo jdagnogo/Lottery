@@ -10,7 +10,8 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".view.activity.ThirdScreen"></activity>
+        <activity android:name=".view.activity.LastScreenActivity"></activity>
+        <activity android:name=".view.activity.ThirdScreen" />
         <activity android:name=".view.activity.GameListActivity" />
         <activity android:name=".view.activity.MainActivity">
             <intent-filter>

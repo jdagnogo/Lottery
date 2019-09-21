@@ -4,4 +4,6 @@
     <string name="first_screen_title">Λόττο Γεννήτρια Τυχαίων Αριθμών</string>
     <string name="first_screen_button1">Επιλογή Τυχαίων Αριθμών </string>
     <string name="first_screen_button2">Υπολογισμός Κόστους </string>
+    <string name="third_screen_button1">Αριθμός Εισιτηρίων</string>
+    <string name="third_screen_button2">Τυχαίοι Αριθμοί </string>
 </resources>

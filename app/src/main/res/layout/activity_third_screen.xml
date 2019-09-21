@@ -6,4 +6,41 @@
     android:layout_height="match_parent"
     tools:context=".view.activity.ThirdScreen">
 
+    <TextView
+        android:layout_width="wrap_content"
+        android:id="@+id/third_screen_title"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="96dp"
+        android:textSize="30sp"
+        android:textColor="@color/colorAccent"
+        android:textAlignment="center"
+        android:text="@string/first_screen_title"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/third_screen_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="48dp"
+        android:text="@string/third_screen_button1"
+        android:textColor="@android:color/white"
+        android:background="@drawable/bg_selector"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/third_screen_title" />
+
+    <Button
+        android:id="@+id/third_screen_button2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="48dp"
+        android:text="@string/third_screen_button2"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:textColor="@android:color/white"
+        android:background="@drawable/bg_selector"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/third_screen_button" />
 </androidx.constraintlayout.widget.ConstraintLayout>
